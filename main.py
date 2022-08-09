@@ -30,7 +30,7 @@ sns.jointplot(x='Age',y='Area Income',data=ad_data)      # A jointplot showing A
 plt.show()
 
 
-sns.jointplot(x='Age',y='Daily Time Spent on Site',data=ad_data,color='red',kind='kde');     # A jointplot showing the kde distributions of Daily Time spent on site vs. Age
+sns.jointplot(x='Age',y='Daily Time Spent on Site',data=ad_data,fill=True,color='red',kind='kde')     # A jointplot showing the kde distributions of Daily Time spent on site vs. Age
 plt.show()
 
 
