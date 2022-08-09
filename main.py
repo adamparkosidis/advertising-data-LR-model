@@ -24,7 +24,7 @@ ad_data.describe()
 sns.set_style('whitegrid')
 ad_data['Age'].hist(bins=30)
 plt.xlabel('Age')
-
+plt.show()
 
 sns.jointplot(x='Age',y='Area Income',data=ad_data)      # A jointplot showing Area Income versus Age
 plt.show()
